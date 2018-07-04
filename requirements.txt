@@ -32,5 +32,5 @@ URLObject==2.4.3
 Werkzeug==0.14.1
 wincertstore==0.2
 WTForms==2.1
-flask-restful==0.8
-mongoengine
+flask-restful==0.3.6
+mongoengine=0.15.0
