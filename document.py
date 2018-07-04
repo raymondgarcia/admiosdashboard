@@ -93,30 +93,3 @@ def insert(client, developers, contract, tech):
     # id="5b2a689f32fd944e08fda5b0"
     my_team = Team(client=client, developers=developers, contract=contract, tech=tech)
     my_team.save()
-
-
-'''clean()
-insert(client=Client(name="OfftheGrid",type="Product"),
-       developers=[Developer(name="Fercho",zohoid=338873000000170987, status=Status.PLACED.value),
-                   Developer(name="Jorge", zohoid=338873000000173889, status=Status.PLACED.value),
-                   Developer(name="Luis", zohoid=338873000000171007, status=Status.PLACED.value)],
-       contract=Contract(fromdate=datetime.date(2018,12, 17),todate=datetime.date(2019,1, 15), description="Nov 17, extended recently to 1/15", autorenew=False),
-       tech=["Angular", "Node"])
-
-insert(client=Client(name="AnaPlan - Dev",type="Product"),
-       developers=[Developer(name="Jose", zohoid=4, status=Status.PLACED.value),
-                   Developer(name="Cristiano", zohoid=5, status=Status.PLACED.value),
-                   Developer(name="Chistopher", zohoid=6, status=Status.PLACED.value)],
-       contract=Contract(fromdate=datetime.date(2018,12, 17),todate=datetime.date(2019,1, 15), description="Nov 17, extended recently to 1/15", autorenew=False),
-       tech=["Angular", "Node"])
-
-insert(client=Client(name="Zignal Labs",type="Product"),
-       developers=[Developer(name="Rodolfo", zohoid=7, status=Status.PLACED.value),
-                   Developer(name="Antonio", zohoid=8, status=Status.PLACED.value),
-                   Developer(name="Alvaro", zohoid=9, status=Status.PLACED.value),
-                   Developer(name="Lucio", zohoid=10, status=Status.PLACED.value),
-                   Developer(name="Santiago", zohoid=11, status=Status.PLACED.value)],
-       contract=Contract(fromdate=datetime.date(2018, 12, 17), todate=datetime.date(2019, 1, 15),
-                         description="Nov 17, extended recently to 1/15", autorenew=False),
-       tech=["React"])
-'''
